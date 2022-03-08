@@ -94,7 +94,14 @@ actor {
     };
 
     // Challenge 9
-    
+    //public func size_in_bytes(text : Text) : async Nat8 {
+     //   g
+    //};
+
     // Challenge 10
-    
+    public func bubble_sort(arr : [Nat]) : async [Nat] {
+        var sorted_array : [Nat] = Array.sort(arr, Nat.compare);
+        return sorted_array;
+    };
+
 };

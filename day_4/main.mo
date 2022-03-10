@@ -36,10 +36,10 @@ actor {
     };
 
     
-    let animalList : List.List<Animal> = List.nil<Animal>();
+    var animalList : List.List<Animal> = List.nil<Animal>();
 
     public func push_animal(animal : Animal) : async () {
-        ignore List.push(animal, animalList);
+        animalList := List.push(animal, animalList);
     };
 
     public func get_animals() : async [Animal] {

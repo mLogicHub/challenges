@@ -4,14 +4,18 @@
         "main": "day_1.mo",
         "type": "motoko"
       },
-        "day_2": {
-          "main": "day_2.mo",
-          "type": "motoko"
-        },
-        "day_3": {
-          "main": "day_3.mo",
-          "type": "motoko"
-        }
+      "day_2": {
+        "main": "day_2.mo",
+        "type": "motoko"
+      },
+      "day_3": {
+        "main": "day_3.mo",
+        "type": "motoko"
+      },
+      "day_4": {
+        "main": "day_4/main.mo",
+        "type": "motoko"
+      }
     },
     "defaults": {
       "build": {

@@ -55,7 +55,7 @@ actor {
         Cycles.accept(msg_cycles);
     };
 
-    // // challenge 7
+    // challenge 7
     stable var counter: Nat = 0;
 
     public func increment_counter(): async () {

@@ -99,7 +99,7 @@ actor {
         return(response)
     };
 
-    stable var registryArray = [];
+    stable var registryArray : [(TokenIndex, Principal)] = [];
 
     system func preupgrade(){
         registryArray := Iter.toArray(registry.entries());
